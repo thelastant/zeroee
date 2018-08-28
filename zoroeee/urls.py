@@ -19,6 +19,7 @@ from app import index
 
 urlpatterns = [
     url(r'^index/', include(index.urls)),
+    url(r'', include(index.urls)),
 
 ]
 
